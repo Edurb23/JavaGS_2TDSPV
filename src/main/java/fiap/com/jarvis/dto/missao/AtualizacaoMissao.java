@@ -6,9 +6,9 @@ import java.time.LocalDate;
 
 public record AtualizacaoMissao(
 
-        @NotBlank(message = "Nome da missão é obrigatori")
+        @NotBlank(message = "Nome da missão é obrigatorio")
         String nome,
-        @NotBlank(message = "Descrição da missão é obrigatori")
+        @NotBlank(message = "Descrição da missão é obrigatorio")
         String descricao,
         LocalDate inicio,
         LocalDate fim
